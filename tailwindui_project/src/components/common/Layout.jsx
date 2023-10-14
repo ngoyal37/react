@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 const Layout = ({ children }) => {
     return (<>
         <Header />
-        <div className="w-full">
+        <div className="mx-auto p-4 w-full max-w-[1240px] min-h-[350px]">
             {children}
             <Outlet />
         </div>
