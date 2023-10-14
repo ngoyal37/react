@@ -1,4 +1,4 @@
-import React, { Suspense, Component } from 'react';
+import React from 'react';
 
 const PageLoader = () => {
     return <div className="pageloader">

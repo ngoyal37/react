@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import Home from './pages/Home';
+// import Home from './pages/Home';
 //import Aboutus from './pages/Aboutus';
 //import Contantus from './pages/Contactus';
 //import Productlst from "./pages/Product_lst";
@@ -23,9 +23,7 @@ function App() {
       <Suspense fallback={<PageLoader />}>
         <Routes>
 
-        <Route path="/" element={<Home />} />
-
-          {/* <Route path="/" element={<Emptyoutlet />} >
+          <Route path="/" element={<Emptyoutlet />} >
             <Route index element={<LazyHome />} />
             <Route path="about" element={<LazyAboutus />} />
             <Route path="contact" element={<LazyContantus />} />
@@ -34,7 +32,7 @@ function App() {
               <Route path=":id" element={<LazyProductdetails />} />
             </Route>
             <Route path="*" element={<LazyErrorpage />} />
-          </Route> */}
+          </Route>
 
         </Routes>
       </Suspense>
