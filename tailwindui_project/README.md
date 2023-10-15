@@ -71,15 +71,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
----------------------------------
-React install plugins
+## <---- React install plugins ----> ##
+
 ## Router
 npm i react-router-dom
 
-## Tailwindcss
+## Tailwindcss [Note:- To use .jsx extension -> Set in tailwind.config.js file 'content: ["./src/**/*.{html,jsx,js}"],']
 npm install -D tailwindcss
 npx tailwindcss init
-Note:- if use jsx extension -> Set in tailwind.config.js file 'content: ["./src/**/*.{html,jsx,js}"],'
 
-## Sass
+## Sass [Note:- To use scss in project.]
 npm install sass
+
+## Slider 
+npm i react-slick
+npm install slick-carousel
+

@@ -1,11 +1,12 @@
 import React from 'react';
+import Container from '../common/Container';
 
 const Footer = () => {
     return (
-        <footer className='bg-black text-white'>
-            <div className="mx-auto p-4 w-full max-w-[1240px]">
+        <footer className='bg-black text-white py-4'>
+            <Container>
                 <h1>Footer</h1>
-            </div>
+            </Container>
         </footer>
     );
 }

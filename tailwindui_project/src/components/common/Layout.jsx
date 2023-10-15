@@ -1,15 +1,16 @@
 import React from 'react';
+import { Outlet } from "react-router-dom";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
-import { Outlet } from "react-router-dom";
+import Container from './Container';
 
 const Layout = ({ children }) => {
     return (<>
         <Header />
-        <div className="mx-auto p-4 w-full max-w-[1240px] min-h-[350px]">
+        <Container className="min-h-[350px]">
             {children}
             <Outlet />
-        </div>
+        </Container>
         <Footer />
     </>);
 }

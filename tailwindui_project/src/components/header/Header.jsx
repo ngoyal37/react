@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom"
+import Container from '../common/Container';
 
 const Header = () => {
     return (
-        <header className="bg-[#2699fb]">
-            <nav className="mx-auto p-4 w-full max-w-[1240px] flex items-center">
+        <header className="py-4 bg-[#2699fb]">
+            <Container className="flex items-center">
                 <div className="font-medium text-4xl"><Link to="/">Logo</Link></div>
                 <div className="ml-auto">
                     <ul className='inline-flex'>
@@ -15,7 +16,8 @@ const Header = () => {
                         <li className='mx-2 text-white'><NavLink to="/contact">Contact Us</NavLink></li>
                     </ul>
                 </div>
-            </nav>
+
+            </Container>
         </header>
     );
 }
