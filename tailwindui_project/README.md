@@ -73,10 +73,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ---------------------------------
 React install plugins
+## Router
+npm i react-router-dom
+
 ## Tailwindcss
 npm install -D tailwindcss
 npx tailwindcss init
 Note:- if use jsx extension -> Set in tailwind.config.js file 'content: ["./src/**/*.{html,jsx,js}"],'
 
-## Router
-npm i react-router-dom
+## Sass
+npm install sass
