@@ -87,3 +87,6 @@ npm install sass
 npm i react-slick
 npm install slick-carousel
 
+## Tabs
+npm i react-tabs
+npm install --save react-tabs
