@@ -90,3 +90,6 @@ npm install slick-carousel
 ## Tabs
 npm i react-tabs
 npm install --save react-tabs
+
+## Banner Text auto wright
+npm i react-typed
