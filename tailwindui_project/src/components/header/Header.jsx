@@ -6,7 +6,7 @@ import Container from '../common/Container';
 const Header = () => {
     return (
         <header className="py-4 bg-[#2699fb]">
-            <Container className="flex items-center">
+            <div className="container flex items-center"> {/* container settings in :- tailwind.config.js */}
                 <div className="font-medium text-4xl"><Link to="/">Logo</Link></div>
                 <div className="ml-auto">
                     <ul className='inline-flex'>
@@ -17,7 +17,7 @@ const Header = () => {
                     </ul>
                 </div>
 
-            </Container>
+            </div>
         </header>
     );
 }

@@ -7,10 +7,10 @@ import Container from './Container';
 const Layout = ({ children }) => {
     return (<>
         <Header />
-        <Container className="min-h-[350px]">
+        <div className="container min-h-[350px]"> {/* container settings in :- tailwind.config.js */}
             {children}
             <Outlet />
-        </Container>
+        </div>
         <Footer />
     </>);
 }

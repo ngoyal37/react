@@ -4,9 +4,9 @@ import Container from '../common/Container';
 const Footer = () => {
     return (
         <footer className='bg-black text-white py-4'>
-            <Container>
+        <div className="container"> {/* container settings in :- tailwind.config.js */}
                 <h1>Footer</h1>
-            </Container>
+            </div>
         </footer>
     );
 }
